@@ -1,14 +1,13 @@
 """
-WSGGGGG This was made by Max Charney
+Made by Max Charney
 """
 
 from PIL import Image
 import numpy as np
-from tensorflow import keras
-import time
+import tensorflow as tf
 import streamlit as st
 
-model = keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("model.h5")
 
 folder_path = "pets/one.jpg"
 
