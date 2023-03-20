@@ -51,7 +51,7 @@ st.markdown("""
 
 
 
-st.title('A Machine Learning Model That Can Determine if a Picture is of a _Cat_ or _Dog_')
+st.title('Dog or Cat?')
 
 
 
