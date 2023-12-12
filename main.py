@@ -84,7 +84,7 @@ for i in range(len(predictions)):
     else:
         #print('cat')
         st.subheader(":black[That is likely a cat! 🐱]")
-        confidence = (100 - int(predictions[i]))
+        confidence = (int(predictions[i]))
         st.subheader("Confidence: "+ str(confidence))
         # cats += 1
 
