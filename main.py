@@ -77,14 +77,11 @@ if uploaded_file is not None:
 for i in range(len(predictions)):
     if predictions[i] > 0.5:
         #print('dog')
-        st.subheader(":black[That is likely a dog! 🐶]")
-        st.subheader("Confidence: "+ predictions[i])
+        st.subheader(":black[My guess is dog! 🐶]")
         # dogs += 1
     else:
         #print('cat')
-        st.subheader(":black[That is likely a cat! 🐱]")
-        confidence = (int(predictions[i]))
-        st.subheader("Confidence: "+ predictions[i])
+        st.subheader(":black[My guess is cat! 🐱]")
         # cats += 1
 
 st.write("This model was trained on 10,000 images of cats and dogs for 50 epochs using a Convolutional Neural Network (CNN). To use the model, simply upload your desired photo.")
