@@ -51,7 +51,7 @@ st.markdown("""
 
 
 
-st.title('Dog or Cat? Tech club let's goooooo')
+st.title("Dog or Cat? Tech club let's goooooo")
 st.header('Not perfect but correct pretty often')
 
 
