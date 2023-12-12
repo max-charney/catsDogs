@@ -78,14 +78,14 @@ for i in range(len(predictions)):
     if predictions[i] > 0.5:
         #print('dog')
         st.subheader(":black[That is likely a dog! 🐶]")
-        confidence = (int(predictions[i])) * 10
-        st.subheader(":black[(Confidence: "+ str(confidence))
+        confidence = (int(predictions[i]))
+        st.subheader("Confidence: "+ str(confidence))
         # dogs += 1
     else:
         #print('cat')
         st.subheader(":black[That is likely a cat! 🐱]")
-        confidence = (100 - int(predictions[i])) * 10
-        st.subheader(":black[(Confidence: "+ str(confidence))
+        confidence = (100 - int(predictions[i]))
+        st.subheader("Confidence: "+ str(confidence))
         # cats += 1
 
 st.write("This model was trained on 10,000 images of cats and dogs for 50 epochs using a Convolutional Neural Network (CNN). To use the model, simply upload your desired photo.")
