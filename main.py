@@ -86,7 +86,7 @@ for i in range(len(predictions)):
         # cats += 1
 
 st.write("This model was trained on 10,000 images of cats and dogs for 50 epochs using a Convolutional Neural Network (CNN). To use the model, simply upload your desired photo.")
-st.write('My github: https://github.com/max-charney')
+#st.write('My github: https://github.com/max-charney')
 # print('')
 
 # print("dogs: "+ str(dogs))
